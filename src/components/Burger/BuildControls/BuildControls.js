@@ -18,7 +18,9 @@ const buildControls = (props)=>(
                 label = {ctrl.label}
                 // value of ctrl.type get from buildControl
                 // will passed to Burger Builder at model <BuildControls>
-                added = {() => props.ingredientAdded(ctrl.type)}/> 
+                added = {() => props.ingredientAdded(ctrl.type)}
+                removed = {() =>props.ingredientRemoved(ctrl.type)}
+                disabled = {props.disabled[ctrl.type]}/> 
         ))}
     </div>
 );
