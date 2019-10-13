@@ -11,10 +11,11 @@ const burger = (props) =>{
                return <BurgerIngredient key = {igKey + i} type = {igKey}/>
             });
         });
+
+        
     return (
         <div className = {classes.Burger}>
             <BurgerIngredient type = "bread-top"/>
-            <p>Start Making your Burger !</p>
             {transformedIngredients}
             <BurgerIngredient type = "bread-bottom"/>
         </div>
