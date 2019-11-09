@@ -26,9 +26,9 @@ class BurgerBuilder extends Component {
         ingredients: null,
         totalPrice: 4,
         purchasable: false,
-        purchasing: false,
-        loading: false,
-        error: false
+        purchasing: false, //local determine variable
+        loading: false,//local determine variable
+        error: false//local determine variable
     }
 
     componentDidMount(){
