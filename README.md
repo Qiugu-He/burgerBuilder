@@ -2,13 +2,13 @@
 
 The app is developed for restaurant to provide customized burger to their user
 
-# Get started
+## Get started
 - Install node js on your machine
 - cd to root directory, type "npm install" for dependencies
 - type "npm start" to start the server
 - Go to http://localhost:3000
 
-# Component tree:
+## Component tree
 The app's layout is consists by 4 component: Toolbar, sidebar(responsive), backdraw, {props.children}(dymanicly passing component into pages)
 - Toolbar & sidebar consists: drawerToggle, Logo, Navbar items
 - {props.children}:
@@ -33,7 +33,7 @@ Oder data (JSON):
 Firebase structure:<br>
 <img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/firebase.png" alt="alt text" width="60%" height="60%">
 
-# App screenshot:
+## App screenshot:
 Home page:<br>
 <img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/home.png" alt="alt text" width="60%" height="60%">
 <br>Order summary:<br>
