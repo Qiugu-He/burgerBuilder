@@ -25,7 +25,7 @@ Oders state (JSON):
 - purchse; 
 - totalPrice;
 
-Oder information (JSON):
+Oder data (JSON):
 - Ingredients {meat; cheese; salad; bacon};
 - Order data {country; deliverMethod; email; name; address; zipCode};
 - TotalPrice;
@@ -36,9 +36,9 @@ Firebase structure:<br>
 # App screenshot:
 Home page:<br>
 <img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/home.png" alt="alt text" width="60%" height="60%">
-<br>order summary:<br>
+<br>Order summary:<br>
 <img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/orderSummary.png" alt="alt text" width="60%" height="60%">
-<br>checkout:<br>
+<br>Checkout:<br>
 <img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/checkout.png" alt="alt text" width="60%" height="60%">
 
  
