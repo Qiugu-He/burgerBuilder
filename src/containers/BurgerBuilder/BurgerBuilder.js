@@ -25,6 +25,7 @@ class BurgerBuilder extends Component {
     }
 
     componentDidMount(){
+        this.props.onInitIngredients();
     }
 
 
@@ -112,7 +113,7 @@ class BurgerBuilder extends Component {
         }
 
         let orderSummary = null;
-        let burger = this.state.error ? <p>Ingredients cannot be loaded!</p>: <Spinner />; 
+        let burger = this.props.error ? <p>Ingredients cannot be loaded!</p>: <Spinner />; 
         
         if(this.props.ings){ // as ingredients now is dynamically get data from firebase
             burger = (
@@ -149,13 +150,15 @@ class BurgerBuilder extends Component {
 const mapStateToProps = state =>{
     return {
         ings: state.ingredients,
-        price: state.totalPrice
+        price: state.totalPrice,
+        error: state.error
     };
 }
 const mapDispactchToProps = dispatch =>{
     return {
         onIngredientAdded: (ingName)=> dispatch(BurgerBuilderActions.addIngredient(ingName)),
-        onIngredientRemoved: (ingName)=> dispatch(BurgerBuilderActions.removeIngredient(ingName))
+        onIngredientRemoved: (ingName)=> dispatch(BurgerBuilderActions.removeIngredient(ingName)),
+        onInitIngredients:() => dispatch(BurgerBuilderActions.initIngredients())
     }
 }
 
