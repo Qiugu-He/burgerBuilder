@@ -47,7 +47,7 @@ export const auth = (email, password, isSignup) => {
         };
 
         let url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAr7Gk22opWk0leVcSeET1fi6b4nnc42_8';
-        
+
         if(!isSignup){
             url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyAr7Gk22opWk0leVcSeET1fi6b4nnc42_8';
         }
@@ -61,5 +61,12 @@ export const auth = (email, password, isSignup) => {
             .catch(err => {
                 dispatch(authFail(err.response.data.error));
             });
+    };
+};
+
+export const setAuthRedirectPath = (path) => {
+    return {
+        type: actionTypes.SET_AUTH_REDIRECT_PATH,
+        path: path
     };
 };
