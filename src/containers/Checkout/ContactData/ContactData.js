@@ -81,6 +81,7 @@ class ContactData extends Component{
             deliveryMethod: {
                 elementType: 'select',
                 elementConfig:{
+                    placeholder: 'Your eMail',
                     options: [
                         {value: 'fastest', displayValue: 'Fastest'},
                         {value: 'cheapest', displayValue: 'Cheapest'}

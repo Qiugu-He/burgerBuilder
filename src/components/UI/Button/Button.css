@@ -8,6 +8,7 @@
     padding: 10px;
     margin: 10px;
     font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .Button:first-of-type {
@@ -16,14 +17,17 @@
 }
 
 .Success {
-    color: #5C9210;
+    color: #00af3f;
 }
 
 .Danger {
-    color: #944317;
+    color:  #00af3f;
 }
 
 .Button:disabled{
     color: #ccc;
     cursor:not-allowed;
+}
+.Button:hover{
+    color: #3fbd6d
 }

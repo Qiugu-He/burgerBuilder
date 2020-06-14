@@ -1,7 +1,7 @@
 .Input{
     width: 100%;
     padding: 10px;
-    box-sizing: border-box;
+    border-radius: 45px;
 }
 
 .Lable{
@@ -10,7 +10,7 @@
     margin-bottom: 8px;
 }
 .InputElement{
-    outlineL: none;
+    outline: none;
     border: 1px solid #ccc;
     font: inherit;
     padding: 6px 10px;

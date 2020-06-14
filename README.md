@@ -1,3 +1,8 @@
+# deploy procedure:
+- npm run build
+- firebase login
+- firebase deploy
+
 # Burger Builder App
 
 The app is developed for restaurant to provide customized burger to their user
