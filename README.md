@@ -11,12 +11,30 @@ Made by Qiugu He
 - Login/Logout Authentication
 - Responsive design
 
-<img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/BurgerMaker.png" alt="alt text" width="80%" height="40%">
+<img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/BurgerMaker.png" alt="alt text" width="50%" height="50%">
+<br>
+<img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/checkout.png" alt="alt text" width="50%" height="50%">
+<br>
+<img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/Contact.png" alt="alt text" width="50%" height="50%">
+<br>
+<img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/orders.png" alt="alt text" width="50%" height="50%">
+
+## Language
+- HTML
+- CSS
+- JavaScript
+
+## Framework/Database
+- React, Redux
+- Enzyme
+- Firebase
+
+## Tools
+- React-devtools
+- Firebase (Deployed)
+
 ## Get started
 - Install nodeJs
 - "npm install" for dependencies
 - "npm start" to start the application
 - Go to http://localhost:3000
-
-
- 
