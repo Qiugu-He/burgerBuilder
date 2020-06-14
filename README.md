@@ -1,46 +1,22 @@
-# Burger Builder App
+# Burger Maker
+A SPA responsive web application developed based on ReactJs with Redux. It provides customized build burger for resturant to their customer. 
+View the project: https://react-burger-builder-3ec07.web.app/
 
-A SPA responsive web application developed based on ReactJs with Redux. It provides customized build burger to a resturant for their customer. 
+From [Udemy](https://www.udemy.com/)
 
-Demo: https://react-burger-builder-3ec07.web.app/
+Made by Qiugu He
 
+## Features
+- React based user interaction components
+- Login/Logout Authentication
+- Responsive design
+
+<img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/BurgerMaker.png" alt="alt text" width="80%" height="40%">
 ## Get started
-- Install nodeJs on your machine
-- cd to root directory, type "npm install" for dependencies
-- type "npm start" to start the server
+- Install nodeJs
+- "npm install" for dependencies
+- "npm start" to start the application
 - Go to http://localhost:3000
 
-## Component tree
-The app's layout is consists by 4 component: Toolbar, sidebar(responsive), backdraw, {props.children}(dymanicly passing component into pages)
-- Toolbar & sidebar consists: drawerToggle, Logo, Navbar items
-- {props.children}:
-    - Burger builder page contains 3 component: builder controller, built burger preview, and modal
-    - builder controller contains a list of components of individual control, which responseble to built burger. (HTML/JS)
-    - burger preview hold ingredient components (a list of ingredient), which dynamic contolled by user with build control. (each ingredient is just a div/css)
-    - modal is a wraper component, which takes {props.children} to warp itself aroundany content in the modle(e.g. order summary/checkout summary)
-
-<img
-src="https://github.com/Qiugu-He/burgerBuilder/blob/master/component-tree.png" alt="alt text" width="60%" height="60%">
-
-Oders state (JSON): 
-- Ingredients {meat; cheese; salad; bacon}
-- purchse; 
-- totalPrice;
-
-Oder data (JSON):
-- Ingredients {meat; cheese; salad; bacon};
-- Order data {country; deliverMethod; email; name; address; zipCode};
-- TotalPrice;
-
-Firebase structure:<br>
-<img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/firebase.png" alt="alt text" width="60%" height="60%">
-
-## App screenshot:
-Home page:<br>
-<img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/home.png" alt="alt text" width="60%" height="60%">
-<br>Order summary:<br>
-<img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/orderSummary.png" alt="alt text" width="60%" height="60%">
-<br>Checkout:<br>
-<img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/checkout.png" alt="alt text" width="60%" height="60%">
 
  
