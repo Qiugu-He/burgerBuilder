@@ -20,21 +20,21 @@ Made by Qiugu He
 <br>
 <img src="https://github.com/Qiugu-He/burgerBuilder/blob/master/orders.png" alt="alt text" width="50%" height="50%">
 
-## Language
-- HTML
-- CSS
-- JavaScript
+## Language:
+- HTML/CSS
+- JavaScript/JSX
 
-## Framework/Database
+## Framework, Libaries, Database:
 - React, Redux
-- Enzyme
+- Ajax
+- Enzyme (Testing)
 - Firebase
 
-## Tools
+## Tools:
 - React-devtools
 - Firebase (Deployed)
 
-## Get started
+## Get started:
 - Install nodeJs
 - "npm install" for dependencies
 - "npm start" to start the application
