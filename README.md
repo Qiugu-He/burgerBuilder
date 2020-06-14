@@ -1,14 +1,11 @@
-# deploy procedure:
-- npm run build
-- firebase login
-- firebase deploy
-
 # Burger Builder App
 
-The app is developed for restaurant to provide customized burger to their user
+A SPA responsive web application developed based on ReactJs with Redux. It provides customized build burger to a resturant for their customer. 
+
+Demo: https://react-burger-builder-3ec07.web.app/
 
 ## Get started
-- Install node js on your machine
+- Install nodeJs on your machine
 - cd to root directory, type "npm install" for dependencies
 - type "npm start" to start the server
 - Go to http://localhost:3000
